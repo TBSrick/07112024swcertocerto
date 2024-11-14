@@ -1,0 +1,17 @@
+@url = https://8080-tbsrick-07112024swcerto-wu9qszqb2zk.ws-us116.gitpod.io
+
+GET  {{url}}/jogos
+
+###
+GET {{url}}/jogos/1
+
+###
+POST  {{url}}/jogos
+Content-Type: application/json
+
+{
+    "titulo" : "Astro bot",
+    "plataforma" : [
+        {"id" : 1}
+    ]
+}
